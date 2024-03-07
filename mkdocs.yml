@@ -1,0 +1,8 @@
+site_name: "ADR-SAMPLE"
+site_description: "A demo project for ADR plugin"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
