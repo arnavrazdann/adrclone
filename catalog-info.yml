@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adr-sample
+  title: ADR Plugin demonstration
+  description: project sample to demonstrate ADR Plugin
+  annotations:
+    gitlab.com/readme-path: 'README.md'
+    backstage.io/adr-location: adrs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: obd-team
+  lifecycle: production
